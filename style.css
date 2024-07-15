@@ -333,7 +333,7 @@ canvas
 {
     width: 100vw;
     height: 50vh;
-    position: relative;
+    /* position: relative; */
     padding: 5rem;
     
 }
@@ -342,7 +342,7 @@ canvas
 {
     width: 20rem;
     height: 15rem;
-    background-color: rgb(25, 25, 25);
+    background-color:transparent;
     border-top: 0.1rem solid rgb(215, 215, 215);
     border-bottom: 0.1rem solid rgb(215, 215, 215);
 
@@ -356,38 +356,96 @@ canvas
 {
     width: 100%;
     height: 50vh;
-    position: relative;
+    /* position: relative; */
 }
 
 .proj2box
 {
     width: 20rem;
-    height: 15rem;
+    height: 10rem;
     right: 15%;
     top: 20%;
-    position: absolute;
+    background-color: transparent;
+    /* position: absolute; */
     border-top: 0.1rem solid rgb(215, 215, 215);
     border-bottom: 0.1rem solid rgb(215, 215, 215);
 }
 
 
-.proj1text{
+.proj1text, .proj2text{
 
     width: 40rem;
-    height: 20rem;
+    height: 12rem;
 }
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1100px){
  
-    
+  
     .proj1text h3
     {
-        font-size: 5rem;
+        display:none
+    
     }
 
+    .proj2text h3
+    {
+         display:none
+    }
+
+   
 
 }
 
 
+
+.page6
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+}
+
+.proj3text
+{
+    color: rgb(188,188,188);
+}
+
+
+.cv
+{
+background: rgba( 74, 151, 242, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.projectTwoContainer
+{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+#page2
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(215, 215, 215);
+    
+}
+
+.intro
+{
+    width: 50%;
+}
+
+.photo
+{
+    width: 50%;
+}
